@@ -1,0 +1,115 @@
+.div-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body {
+  background: #FDF5DF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 650px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fa {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2 {
+  color: #FDF5DF;
+}
+
+h1, .fa {
+  font-size: 55px !important;
+  line-height: 40px !important;
+  text-align: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  color: #5EBEC4;
+  margin-bottom: 80px;
+}
+
+#tempCalc {
+  text-align: center;
+  background: #cd3456;
+  border-radius: 20px;
+  padding: 30px 50px;
+}
+
+label {
+  font-size: 20px;
+  line-height: 24px;
+  color: #cd3456;
+  text-align: left;
+}
+
+input,
+select {
+  height: 40px;
+  color: #FDF5DF;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FDF5DF;
+  font-size: 18px;
+}
+
+input:focus,
+select:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 1px solid #FDF5DF;
+}
+
+option {
+  padding: 10px 12px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  background: transparent;
+  border: 0px;
+  color: #cd3456;
+}
+
+#resultContainer {
+  font-size: 22px;
+  line-height: 30px;
+  color: #FDF5DF;
+}
+
+button {
+  margin: 12px auto;
+  background: #FDF5DF;
+  padding: 12px 20px;
+  display: block;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #cd3456;
+  border: none;
+  -webkit-box-shadow: 30px 45px 28px rgba(255, 0, 0, 0.25);
+          box-shadow: 30px 45px 28px rgba(255, 0, 0, 0.25);
+}
+
+#result {
+  font-size: 21px;
+  line-height: 28px;
+  color: #cd3456;
+  text-align: center;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

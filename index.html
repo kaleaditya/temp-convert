@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Temp calculator</title>
+</head>
+
+<body>
+    <div class="div-flex">
+        <form id="tempCalc" onsubmit="calculateTemp(); return false">
+            <h2>Please enter the temprature you like to convert</h2>
+            <input type="number" id="temp" name="temp">
+    
+            <select name="temp_diff" id="temp_diff">
+                <option value="cel"> &nbsp; &#176; Celcious</option>
+                <option value="feh"> &nbsp; &#176; Fahrenheit</option>
+            </select>
+            <br>
+            <button type="submit"> submit</button>
+    
+            <span id="resultContainer"></span>
+        </form>
+    </div>
+  
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
